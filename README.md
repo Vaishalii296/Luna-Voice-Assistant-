@@ -1,55 +1,58 @@
-# 🎙️ Sheila - Voice-Controlled Desktop Assistant (Mini Project)
+
+# 🎤 Luna Voice Assistant (GUI + Voice Control) (Mini Project)
 
 ## 👩‍💻 Made by: Vaishali Rajput  
 **Branch:** B.Tech CSE  
 **Year:** Final Year  
-**Type:** Mini Project (Python + GUI + AI)
+**Type:** Mini Project (Python + GUI)
 
 ---
 
-## 💡 Description
-Sheila is a Python-based voice-controlled desktop assistant with a girly-themed GUI. It performs tasks like:
-
-- 🎵 Play YouTube songs
-- 🌐 Open websites (Google, YouTube)
-- ⏰ Tell current time
-- 🤣 Tell jokes
-- 📸 Take screenshots
-- 🔁 Open and close apps (e.g., Notepad, Chrome)
-- 🎤 Respond to voice commands beginning with "Sheila"
+# Description
+Luna is a Python-based **voice-controlled desktop assistant** with a **Tkinter GUI**.  
+It can perform various tasks like playing YouTube videos, telling the time, telling jokes, and more!
 
 ---
 
-## 🛠️ Technologies Used
-- Python 3.x
-- tkinter (for GUI)
-- pyttsx3 (text-to-speech)
-- speech_recognition (speech-to-text)
-- pywhatkit, pyjokes, wikipedia
-- PIL (ImageGrab for screenshots)
-- threading (background voice processing)
+## 🚀 Features
+- 🎙 Voice activation (responds to "Luna")
+- ⏰ Tells current time
+- 📺 Plays YouTube videos
+- 😂 Tells random jokes 
+- 📧 Sends Emails (optional)
+- 🎵 Plays local music
+- 📚 Fetches Wikipedia summaries
 
 ---
 
-## 🎨 GUI Vibes
-Sheila uses pastel pinks, Comic Sans fonts, and a cute mic icon to give a fun and feminine user experience.
+## 🛠 Tech Stack
+- **Python** 3.x
+- `tkinter` (GUI)
+- `pyttsx3` (Text-to-Speech)
+- `speech_recognition` (Voice commands)
+- `wikipedia` (Info fetching)
+- `pywhatkit` (YouTube)
+- `threading` (Runs voice assistant in background)
 
 ---
 
-## ✅ Features
-| Command Example              | What Sheila Does                        |
-|-----------------------------|-----------------------------------------|
-| "Sheila, play despacito"     | Plays on YouTube                        |
-| "Sheila, take a screenshot"  | Saves screenshot in the project folder  |
-| "Sheila, open notepad"       | Opens Notepad                           |
-| "Sheila, close google"       | Closes Chrome                           |
-| "Sheila, tell me a joke"     | Speaks a joke                           |
-| "Sheila, what's the time"    | Speaks the current time                 |
-| "Sheila, stop"               | Exits the app                           |
+## 📸 Screenshots
+### GUI
+![Luna Voice Assistant GUI](screenshots/gui.png)
 
 ---
 
-## 📦 How to Run
-1. Install required libraries:
+## 📂 Installation
+
 ```bash
+# Clone the repository
+git clone https://github.com/Vaishalii296/Luna-Voice-Assistant-.git
+cd Luna-Voice-Assistant-
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+python main.py
+
 pip install -r requirements.txt
